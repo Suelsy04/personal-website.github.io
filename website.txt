@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudarshan Wankhade - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sudarshan Wankhade</h1>
+        <p>MA in Development Studies | IIT Guwahati</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I am Sudarshan Eknath Wankhade, currently pursuing an MA in Development Studies at IIT Guwahati. I have a strong background in Economics, Political Science, and Geography, with a focus on impactful research and rural development. My dissertation examines the 'Impact Assessment of Financial Inclusion Vertical in Block Akola, Maharashtra.'</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Technical Skills: Microsoft Office, SPSS, STATA, R-Programming (Learning)</li>
+            <li>Non-Technical Skills: Leadership, Analytical Skills, Research, Report Writing</li>
+        </ul>
+    </section>
+
+    <section id="achievements" class="container">
+        <h2>Achievements</h2>
+        <ul>
+            <li>1st Prize - General Knowledge Competition</li>
+            <li>2nd Prize - District-level Monologue Competition</li>
+            <li>2nd Prize - Division Level One Act Play at Youth Festival</li>
+            <li>3rd Prize - IIT Guwahati MANTHAN Musical Competition</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <ul>
+            <li>Email: <a href="mailto:sudarshan.wankade@iitg.ac.in">sudarshan.wankade@iitg.ac.in</a> / <a href="mailto:sudarshanw001@gmail.com">sudarshanw001@gmail.com</a></li>
+            <li>Phone: +91-9322969123</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/sudarshan-wankhade-6a3747281" target="_blank">Sudarshan Wankhade</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sudarshan Wankhade</p>
+    </footer>
+</body>
+</html>
